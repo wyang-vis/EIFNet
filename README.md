@@ -1,2 +1,2 @@
-# EIFNet
+# EIFNet-MADR
 ACMMM2023: Event-based Motion Deblurring with Modality-Aware Decomposition and Recomposition
