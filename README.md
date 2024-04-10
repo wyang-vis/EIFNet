@@ -1,29 +1,14 @@
-# EIFNet-MADR
-ACMMM2023: Event-based Motion Deblurring with Modality-Aware Decomposition and Recomposition
-# Installation
+Download datasets from the google drive links and place them in this directory. Your directory tree should look like this
 
-The model is built in PyTorch 1.8.0 and tested on Ubuntu 16.04 environment (Python3.7, CUDA9.0, cuDNN7.5).
+`GoPro` <br/>
+  `├──`[train](https://drive.google.com/drive/folders/1AsgIP9_X0bg0olu2-1N6karm2x15cJWE?usp=sharing)  <br/>
+  `└──`[test](https://drive.google.com/drive/folders/1a2qKfXWpNuTGOm2-Jex8kfNSzYJLbqkf?usp=sharing)
 
-For installing, follow these instructions
+`HIDE` <br/>
+   `└──`[test](https://drive.google.com/drive/folders/1nRsTXj4iTUkTvBhTcGg8cySK8nd3vlhK?usp=sharing)
 
-    conda create -n pytorch1 python=3.7
-    conda activate pytorch1
-    conda install pytorch=1.1 torchvision=0.3 cudatoolkit=9.0 -c pytorch
-    pip install matplotlib scikit-image opencv-python yacs joblib natsort h5py tqdm
+`RealBlur_J` <br/>
+  `└──`[test](https://drive.google.com/drive/folders/1KYtzeKCiDRX9DSvC-upHrCqvC4sPAiJ1?usp=sharing)
 
-Install warmup scheduler
-
-    cd pytorch-gradual-warmup-lr; python setup.py install; cd ..
-
-# Training and Evaluation
-## Train
-- Download the Datasets
-- Train the model with default arguments by running
-
-  python main.py
-
-## Evaluation
-- Download the Datasets
-- Test the model with default arguments by running
-
-  python main_test.py
+`RealBlur_R` <br/>
+  `└──`[test](https://drive.google.com/drive/folders/1EwDoajf5nStPIAcU4s9rdc8SPzfm3tW1?usp=sharing)
