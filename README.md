@@ -20,7 +20,7 @@ Install warmup scheduler
 - Download the Datasets
 - Train the model with default arguments by running
 
-  python main.py
+  python main_train.py
 
 ## Evaluation
 - Download the Datasets
