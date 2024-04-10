@@ -88,7 +88,7 @@ def main():
         model_restoration = nn.DataParallel(model_restoration, device_ids=device_ids)
 
     ##data prepare
-    test_files_dirs=sorted(os.listdir(os.path.join(opt.father_val_path_npy, 'blur')))
+    test_files_dirs=sorted(os.listdir(os.path.join(opt.father_test_path_npy, 'blur')))
 
     ######### DataLoaders ###########
 
@@ -112,7 +112,7 @@ def main():
             if not isExists:
                 os.makedirs(out_path)
 
-            val_dataset = DataLoaderTest_npz(opt.father_val_path_npz, val_file,opt)
+            val_dataset = DataLoaderTest_npz(opt.father_test_path_npz, val_file,opt)
             val_loader = DataLoader(dataset=val_dataset, batch_size=1, shuffle=False, num_workers=4, drop_last=False,
                                     pin_memory=True)
             for ii, data_val in enumerate(tqdm(val_loader), 0):
