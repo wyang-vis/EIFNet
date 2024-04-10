@@ -24,7 +24,7 @@ Install warmup scheduler
 
 ## Evaluation
 - Download the [GoPro events test dataset](https://example.com) to ./Datasets
-- Download the  [Gpretrained model](https://pan.baidu.com/s/1lzwUPgnANRrV5mbrLy7ypQ) (code: ccpu) to ./checkpoints/models/EIFNet
+- Download the  [pretrained model](https://pan.baidu.com/s/193vCnygNkXT_GOq6PhRrhg) (code: svbb) to ./checkpoints/models/EIFNet
 - Test the model with default arguments by running
 
   python main_test.py
