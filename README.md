@@ -23,7 +23,8 @@ Install warmup scheduler
   python main_train.py
 
 ## Evaluation
-- Download the Datasets
+- Download the  GoPro events test dataset to ./Datasets
+- Download the  pretrained model to ./checkpoints/models/MPRNet
 - Test the model with default arguments by running
 
   python main_test.py
