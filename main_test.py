@@ -67,7 +67,7 @@ def main():
     scheduler.step()
 
     ######### Resume ###########
-    if opt.TRAINING.RESUME:
+    if opt.TESTING.RESUME:
         path_chk_rest = utils.get_last_path(model_dir, '_best.pth')
 
         print('path_chk_rest', path_chk_rest)
