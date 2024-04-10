@@ -1,4 +1,4 @@
-Download datasets from the google drive links and place them in this directory. Your directory tree should look like this
+Download datasets from the google drive links and place them in this directory. 
 
 `GoPro` <br/>
   `├──`[train](https://drive.google.com/drive/folders/1AsgIP9_X0bg0olu2-1N6karm2x15cJWE?usp=sharing)  <br/>
