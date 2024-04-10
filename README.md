@@ -17,13 +17,13 @@ Install warmup scheduler
 
 # Training and Evaluation
 ## Train
-- Download the Datasets
+- Download the [GoPro events train dataset](https://example.com) and [GoPro events test dataset](https://example.com) to ./Datasets
 - Train the model with default arguments by running
 
   python main_train.py
 
 ## Evaluation
-- Download the  GoPro events test dataset to ./Datasets
+- Download the [GoPro events test dataset](https://example.com) to ./Datasets
 - Download the  pretrained model to ./checkpoints/models/EIFNet
 - Test the model with default arguments by running
 
