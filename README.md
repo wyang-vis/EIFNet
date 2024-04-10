@@ -2,7 +2,7 @@
 ACMMM2023: Event-based Motion Deblurring with Modality-Aware Decomposition and Recomposition
 # Installation
 
-The model is built in PyTorch 1.1.0 and tested on Ubuntu 16.04 environment (Python3.7, CUDA9.0, cuDNN7.5).
+The model is built in PyTorch 1.8.0 and tested on Ubuntu 16.04 environment (Python3.7, CUDA9.0, cuDNN7.5).
 
 For installing, follow these instructions
 
@@ -15,3 +15,15 @@ Install warmup scheduler
 
     cd pytorch-gradual-warmup-lr; python setup.py install; cd ..
 
+# Training and Evaluation
+## Train
+- Download the Datasets
+- Train the model with default arguments by running
+
+  python main.py
+
+## Evaluation
+- Download the Datasets
+- Test the model with default arguments by running
+
+  python main_test.py
