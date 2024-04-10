@@ -68,7 +68,7 @@ def main():
 
     ######### Resume ###########
     if opt.TRAINING.RESUME:
-        path_chk_rest = utils.get_last_path(model_dir, '_epoch_317.pth')
+        path_chk_rest = utils.get_last_path(model_dir, '_best_psnr.pth')
 
         print('path_chk_rest', path_chk_rest)
         utils.load_checkpoint(model_restoration, path_chk_rest[0])
