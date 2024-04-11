@@ -88,9 +88,9 @@ class Config(object):
 
 
 
-        self.father_train_path_npz='./Datasets/train'
-        self.father_val_path_npz='./Datasets/test'
-        self.father_test_path_npz='./Datasets/test'
+        self.father_train_path_npz='./Datasets/GoPro/train'
+        self.father_val_path_npz='./Datasets/GoPro/test'
+        self.father_test_path_npz='./Datasets/GoPro/test'
 
         self.train_iters=1000
         self.unrolling_len=1
