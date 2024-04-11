@@ -17,7 +17,7 @@ Install warmup scheduler
 
 # Training and Evaluation
 ## Train
-- Download the [GoPro events train dataset]() and [GoPro events test dataset](https://pan.baidu.com/s/1sM5Y6uWMA5NVp7tmrMXYkg) (code: xd71) to ./Datasets
+- Download the [GoPro events train dataset](https://pan.baidu.com/s/1lw-CW3QH-ZJdpP0CT9oMnw) (code: q0j5) and [GoPro events test dataset](https://pan.baidu.com/s/1sM5Y6uWMA5NVp7tmrMXYkg) (code: xd71) to ./Datasets
   - it should be like: ./Datasets/GoPro/train  and ./Datasets/GoPro/test
 - Train the model with default arguments by running
 
@@ -45,4 +45,3 @@ Install warmup scheduler
 
 ## Acknowledgement
 Thanks to the inspirations and codes from [MPRNet](https://github.com/swz30/MPRNet)
-
