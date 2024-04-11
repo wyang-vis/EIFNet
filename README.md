@@ -17,7 +17,7 @@ Install warmup scheduler
 
 # Training and Evaluation
 ## Train
-- Download the [GoPro events train dataset](https://example.com) and [GoPro events test dataset](https://pan.baidu.com/s/1UKV-sPGo9mRf7XJjZDoF7Q) (code: kmaz) to ./Datasets
+- Download the [GoPro events train dataset](https://pan.baidu.com/s/1W-CAbpk6x5YWLD0K5S1_rA) (code: t250) and [GoPro events test dataset](https://pan.baidu.com/s/1sM5Y6uWMA5NVp7tmrMXYkg) (code: xd71) to ./Datasets
   - it should be like: ./Datasets/GoPro/train  and ./Datasets/GoPro/test
 - Train the model with default arguments by running
 
