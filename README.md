@@ -30,3 +30,19 @@ Install warmup scheduler
 - Test the model with default arguments by running
 
   python main_test.py
+  
+## Citations
+    @inproceedings{yang2023event,
+      title={Event-based Motion Deblurring with Modality-Aware Decomposition and Recomposition},
+      author={Yang, Wen and Wu, Jinjian and Li, Leida and Dong, Weisheng and Shi, Guangming},
+      booktitle={Proceedings of the 31st ACM International Conference on Multimedia},
+      pages={8327--8335},
+      year={2023}
+    }
+## Contact
+ Should you have any questions, please feel free to contact [wenyang.xd@gmail.com](mailto:wenyang.xd@gmail.com)
+
+
+## Acknowledgement
+Thanks to the inspirations and codes from [MPRNet](https://github.com/swz30/MPRNet)
+
