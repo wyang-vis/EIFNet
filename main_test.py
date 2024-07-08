@@ -91,8 +91,6 @@ def main():
 
     ######### DataLoaders ###########
 
-
-    print('===> Start Epoch {} End Epoch {}'.format(start_epoch, opt.OPTIM.NUM_EPOCHS + 1))
     print('===> Loading datasets')
 
     epoch=0
